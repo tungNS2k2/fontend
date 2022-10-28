@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body HTML</title>
+</head>
+<body>
+    <!-- Exercise 2 (Optional): Body HTML -->
+    <!-- Question 1: heading -->
+    <h1 style="color: yellowgreen;">Đây là thẻ h1</h1>
+    <h2 style="color: yellowgreen;">Đây là thẻ h2</h2>
+    <h3 style="color: yellowgreen;">Đây là thẻ h3</h3>
+    <h4 style="color: yellowgreen;">Đây là thẻ h4</h4>
+    <h5 style="color: yellowgreen;">Đây là thẻ h5</h5>
+    <h6 style="color: yellowgreen;">Đây là thẻ h6</h6>
+
+    <!-- Question 2: HTML Lists -->
+    <h3 style="color: thistle;">Danh sách lớp học</h3>
+
+    <ol>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Nguyễn Ngọc Duy</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Tống Quang Anh</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Đình Thu Lan</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Hà Văn Tiến</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Nguyễn Hải Đăng</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Nguyễn Tiến Quang</a></li>
+        <li style="color: tomato;"><a href="" style="text-decoration: none; color: #000;">Nguyễn Văn Chiến</a></li>
+    </ol>
+
+    <h3>A list in a list a in a list</h3>
+    <ul>
+        <li><a href="" style="text-decoration: none; color: #000;">Coffe</a></li>
+        <li><a href="" style="text-decoration: none; color: #000;">Tea</a></li>
+        <ul>
+            <li><a href="" style="text-decoration: none; color: #000;">Black tea</a></li>
+            <li><a href="" style="text-decoration: none; color: #000;">Green tea</a>
+                <ul>
+                    <li><a href="" style="text-decoration: none; color:#000;"></a>China</li>
+                    <li><a href="" style="text-decoration: none; color:#000;"></a>Africa</li>
+                </ul>
+        </ul>
+        <li><a href="" style="text-decoration: none; color: #000;">Milk</a></li>
+    </ul>
+
+
+    <ol style="color: gray;">
+        <li>
+            <a href="" style="text-decoration: none; color: gray">Cơm Trưa</a>
+            <ul>
+                <li><a href="" style="text-decoration: none; color: gray">Cơm chiên hải sản</a></li>
+                <li><a href="" style="text-decoration: none; color: gray">Cơm sườn non nấu canh</a></li>
+                <li><a href="" style="text-decoration: none; color: gray">cơm canh chua cá lóc</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="" style="text-decoration: none; color: gray">Tráng miệng trái cây</a>
+        </li>
+        <ul>
+            <li><a href="" style="text-decoration: none; color: gray;">Nho tươi</a></li>
+            <li><a href="" style="text-decoration: none; color: gray;">Chuối</a></li>
+            <li><a href="" style="text-decoration: none; color: gray;">Mận</a></li>
+        </ul>
+    </ol>
+
+
+    <!-- Question 3: HTML Text Formatting -->
+    <b>This text is bold</b>
+    <i>This text is italic</i>
+    <p>this is <sub>subscript</sub> and <sup>supscript</sup></p>
+    <p>this text is normal</p>
+    <em>this text is emphasized</em>
+
+    <h2>HTML <small>small</small> Formating</h2>
+    <h2>HTML <mark>marked</mark> Formating</h2> 
+    <br>
+    <p>the del element represents deleted (removed) text.</p>
+    <p> Favorite color is <del>blue</del> red</p>
+
+    <br>
+    <p>the ins element represents inserted (added) text.</p>
+    <p>My Favorite <ins>color</ins> is red</p>
+
+    <!-- Question 4: form -->
+    <h2>Register</h2>
+    <em>please <b><i>fill in this form</i></b> to create an account</em>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <label for="Full Name">Full name <em style="color: red;">*</em></label><br>
+        <input type="text" name = "fullName" placeholder="Input your fullname..." size="25">
+        <br>
+        <br>
+        <label for="">Username <em style="color: red;">*</em></label><br>
+        <input type="text" placeholder="Input your username..." size="25">
+        <br>
+        <br>
+        <label for="">Password <em style="color: red;">*</em></label><br>
+        <input type="password" placeholder="Input your password..." size="25">
+        <br>
+        <br>
+        <label for="">Email <em style="color: red;">*</em></label>
+        <br>
+        <input type="email" placeholder="Input your email..." size="25">
+        <br>
+        <br>
+        <label for="">Telephone number <em style="color: red;">*</em></label>
+        <br>
+        <input type="number" placeholder="Input your telephone number..." size="30">
+        <br>
+        <br>
+        <label for="">Input Object:</label><br>
+        <input type="radio" name = "Object" value="Student">Student
+        <input type="radio" name = "Object" value="Teacher">Teacher <br>
+        <br>
+        <label for="">Favorite: </label><br>
+        <input type="checkbox" name="Badminton" value="Badminton">Badminton  
+        <input type="checkbox" name="Vollayball" value="Vollayball">Vollayball 
+        <input type="checkbox" name="Football" value="Football">Football
+        <br>
+        <br>
+        <form action="">
+            <label for="">Address <em style="color: red;">*</em></label><br>
+            <select name="address" id="address">
+                <option value="Bắc Giang">Bắc Giang</option><br>
+                <option value="Hà Nội">Hà Nội</option><br>
+                <option value="Lào Cai">Lào Cai</option>
+            </select>
+        </form>
+        <br>
+        <label for="" name ="Birthday">Birthday <em style="color: red">*</em></label>
+        <br><input type="date" placeholder="mm/đ/yyyy">
+        <br>
+        <br>
+        <label for="" name ="file">Your picture <em style="color: red;">*</em></label><br>
+        <input type="file" name="pic" accept="image/*">
+        <br>
+        <br>
+        <input type="submit" value="Đăng ký" onclick="alert('Đã đăng kí!')">
+
+    </form>
+
+
+
+
+    <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+    </pre>
+</body>
+</html>
