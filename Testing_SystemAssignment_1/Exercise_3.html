@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+
+    <style>
+        
+        span{
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .marginbottom_40px{
+            margin-bottom: 40px;
+        }
+
+        .tomato_color{
+            background-color: tomato;
+        }
+
+        .orange_color{
+            background-color: orange;
+        }
+
+        .dodgerblue{
+            background-color: dodgerblue;
+        }
+
+        .mediumseagreen{
+            background-color: mediumblue;
+        }
+
+        .gray_color{
+            background-color: gray;
+        }
+
+        .slateblue_color{
+            background-color: slateblue;
+        }
+
+        .lightgray_color{
+            background-color: lightgray;
+        }
+
+
+        .border_red{
+            border: solid 2px red;
+        }
+        .border_blue{
+            border: solid 2px blue;
+        }
+        .border_pink{
+            border: solid 2px pink;
+        }
+        .border_black{
+            border: #000 1px solid;
+        }
+
+        .Text_right{
+            text-align: right;
+        }
+        .Text_center{
+            text-align: center;
+        }
+        
+
+        td{
+            min-height: 22px;
+            margin: 0.5px;
+        }
+
+        .display_inline{
+            display: inline-block;
+        }
+
+        .minwidth_32px{
+            min-width: 32px;
+        }
+        .minwidth_26px{
+            min-width: 25px;
+        }
+
+        .border_black.lh66{
+            line-height: 66px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- question 2: color -->
+    <span class="tomato_color"><b>Tomato</b></span>
+    <span class="orange_color"><b>Orange</b></span>
+    <span class="dodgerblue"><b>DodgerBlue</b></span>
+    <span class="mediumseagreen"><b>MediumSeaGreen</b></span>
+    <span class="gray_color"><b>Gray</b></span>
+    <span class="slateblue_color"><b>SlateBlue</b></span>
+    <span class="lightgray_color marginbottom_40px"><b>LightGray</b></span>
+
+
+    <span class="border_red">Hello World</span>
+    <span class="border_blue">Hello World</span>
+    <span class="border_pink marginbottom_40px">Hello World</span>
+
+    <!-- question 3: table -->
+    <!-- table 1 -->
+     <table class="border_black marginbottom_40px">
+        <tr>
+            <th class="border_black">Họ tên</th>
+            <th class="border_black">Ngày sinh</th>
+            <th class="border_black">Giới Tính</th>
+        </tr>
+        
+                <tr>
+                    <td class="border_black">Trần Anh Đức</td>
+                    <td class="border_black">03/081993</td>
+                    <td class="border_black">Nam</td>
+                </tr>
+        <tr>
+            <td class="border_black">Kiều Thị Thu Hằng</td>
+            <td class="border_black">04/09/1991</td>
+            <td class="border_black">Nữ</td>
+        </tr >
+
+        <tr>
+            <td class="border_black">Vương Thị Lê Na</td>
+            <td class="border_black">06/10/1991</td>
+            <td class="border_black">Nữ</td>
+        </tr>
+
+     </table>
+<!-- table 2 -->
+     <table class="border_black marginbottom_40px">
+         <tr>
+             <th class="border_black">STT</th>
+             <th class="border_black">Họ tên</th>
+             <th class="border_black">
+                 <table>
+                         <span style="margin: 1px;" class="border_black">Giới tính</span>
+                    <tr>
+                        <th class="border_black">Nam</th>
+                        <th class="border_black">Nữ</th>   
+                     </tr>
+                 </table>
+             </th>
+             <th class="border_black">Chức vụ</th>
+         </tr>
+
+         <tr>
+             <td class="border_black Text_right">1</td>
+             <td class="border_black">Trần Đức Anh</td>
+             <td class="border_black">
+                <table>
+                    <tr>
+                        <td class="border_black display_inline minwidth_32px">X</td>
+                        <td class="border_black display_inline minwidth_26px"></td>
+                    </tr>
+                </table>
+             </td>
+             <td class="border_black">Lớp Trưởng</td>
+         </tr>
+
+         <tr>
+            <td class="border_black Text_right">2</td>
+            <td class="border_black">Kiều Thị Thu Hằng</td>
+            <td class="border_black">
+               <table>
+                   <tr>
+                       <td class="border_black display_inline minwidth_32px"></td>
+                       <td class="border_black display_inline minwidth_26px">X</td>
+                   </tr>
+               </table>
+            </td>
+            <td class="border_black">Lớp Phó</td>
+        </tr>
+
+        <tr>
+            <td class="border_black Text_right">3</td>
+            <td class="border_black">Vương Thị Lê Na</td>
+            <td class="border_black">
+               <table>
+                   <tr>
+                       <td class="border_black display_inline minwidth_32px"></td>
+                       <td class="border_black display_inline minwidth_26px">X</td>
+                   </tr>
+               </table>
+            </td>
+            <td class="border_black">Tổ Viên</td>
+        </tr>
+     </table>
+
+
+     <!-- table 3 -->
+
+     <table class="border_black marginbottom_40px">
+        <tr>
+            <th class="border_black">STT</th>
+            <th class="border_black">Họ tên</th>
+            <th class="border_black">GVHD</th>
+            <th class="border_black">Lịch gặp GVHD</th>
+        </tr>
+        <tr>
+            <td class="border_black">1</td>
+            <td class="border_black">Nguyễn Lê Thu Trang</td>
+            <td class="border_black" rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+            <td class="border_black" rowspan="3">08/03/2018</td>
+        </tr>
+        <tr>
+            <td class="border_black">2</td>
+            <td class="border_black">Nguyễn Thị Diễm</td>
+        </tr>
+        <tr>
+            <td class="border_black">3</td>
+            <td class="border_black">Phạm Thị Hồng Đào</td>
+        </tr>
+        <tr>
+            <td class="border_black">4</td>
+            <td class="border_black">Nguyễn Thị Kim Sa</td>
+            <td class="border_black" rowspan="3">Th.S Phạm Thị Huyền Quyên</td>
+            <td class="border_black" rowspan="3">05/03/2018</td>
+        </tr>
+        <tr>
+            <td class="border_black">5</td>
+            <td class="border_black">Lê Thị Trang</td>
+        </tr>
+    </table>
+
+
+
+
+    <table class="border_black">
+        <tr>
+            <th class="border_black" colspan="2">Bảng điểm lớp 9B</th>
+            <th class="border_black" rowspan="2">Toán</th>
+            <th class="border_black" rowspan="2">Lý</th>
+            <th class="border_black" rowspan="2">Hóa</th>
+        </tr>
+        <tr>
+            <th class="border_black">STT</th>
+            <th class="border_black">Họ tên</th>
+        </tr>
+        <tr>
+            <td class="border_black">1</td>
+            <td class="border_black">Trần Đức Anh</td>
+            <td class="border_black">8.5</td>
+            <td class="border_black">3.0</td>
+            <td class="border_black">7.75</td>
+        </tr>
+        <tr>
+            <td class="border_black">2</td>
+            <td class="border_black">Kiều Thị Thu Hằng</td>
+            <td class="border_black">10</td>
+            <td class="border_black">9.25</td>
+            <td class="border_black">5.75</td>
+        </tr>
+        <tr>
+            <td class="border_black">3</td>
+            <td class="border_black">Vương Thị Lê Na</td>
+            <td class="border_black">2.25</td>
+            <td class="border_black">6.0</td>
+            <td class="border_black">7.75</td>
+        </tr>
+        <tr>
+            <td class="border_black"></td>
+            <td class="border_black" colspan="4">Điểm trung bình cả lớp</td>
+        </tr>
+    </table>
+
+</body>
+</html>

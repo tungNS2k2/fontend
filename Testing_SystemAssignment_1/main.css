@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+/* css color */
+.red_color{
+    color: red;
+}
+
+.blue_color{
+    color: blue;
+}
+
+.pink_color{
+    color: pink;
+}
+
+.yellow_color{
+    color: yellow;
+}
+.violet_color{
+    color: violet;
+}
+
+.green_color{
+    color: green;
+}
