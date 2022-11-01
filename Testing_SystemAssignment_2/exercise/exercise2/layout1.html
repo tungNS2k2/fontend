@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* css unit 1*/
+
+        .goHomepage{
+            display: block;
+            text-align: center;
+            font-size: 28px;
+            
+        }
+
+        .goHomepage a{
+            color: #000;
+        }
+        .main{
+            background-color: #ccc;
+            padding-left: 180px;
+            padding-right: 180px;
+        }
+
+        .unit1{
+            padding: 80px;
+            background-color: white;
+            border-bottom: solid #ccc 1px;
+        }
+
+        .unit1 h1{
+            display: block;
+            text-align: center;
+        }
+
+        .unit1 u{
+            font-size: 26px;
+        }
+        .margint0{
+            margin-top: 0;
+        }
+        .center_text{
+            text-align: center;
+        }
+
+        .text{
+            font-size: 18px;
+        }
+        .mbtm_100px{
+            margin-bottom: 100px;
+        }
+        .pbtm_20px{
+            padding-bottom: 20px;
+        }
+        .pt_20px{
+            padding-top: 20px;
+        }
+        .mbtm_20px{
+            margin-bottom: 20px;
+        }
+        .mt_20px{
+            margin-top: 20px;
+        }
+
+        .blue_color{
+            color: blue;
+        }
+
+        .red_color{
+            color: red;
+        }
+
+        .green_color{
+            color: green;
+        }
+
+
+        .text2{
+            margin: 4px 0;
+        }
+
+        .text2--border{
+            display: block;
+            border-bottom: solid 1px blue;
+        }
+
+        .div2{
+            padding:0 28%;
+        }
+
+        .div3{
+            display: inline-block;
+            padding: 14px 180px;
+            background: #CCC;
+            width: 100%;
+        }
+
+        .span_class{
+            display: inline-block;
+            margin-bottom: 18px;
+        }
+
+        .ml_120px{
+            margin-left: 120px;
+        }
+        /* end css unit1 */
+
+    </style>
+</head>
+<body>
+    <div class="goHomepage">
+        <a href="/exercise/exercise2/exercise2.html">Go Homepage</a>
+    </div>
+
+    <div class="main">
+        <div class="unit1">
+            <div class="unit1_1">
+                    <h1><b>Bài 01: Sử dụng các tag cơ bản</b></h1>
+                <p>
+                    <u>
+                        <b>Yêu cầu</b>
+                    </u>
+                </p>
+                <h4>Thiết kế nội dung trang web như sau: </h4>
+                <p class="text center_text margint0">lập trình Web</p>
+                <p class="text center_text margint0 mbtm_100px">Chào mừng các bạn đến với ngôn ngữ HTML</p>
+            </div>
+
+            <div class="unit1_2">
+                    <h1><b>Bài 02: Sử dụng các tag cơ bản(tt)</b></h1>
+                <p>
+                    <u><b>
+                        Yêu cầu
+                    </b></u>
+                </p>
+                <h4>Thiết kế nội dung trang web như sau: </h4>
+
+                <h3 class="center_text" style="background-color: pink; position: relative;">MẸ!</h3>
+
+                <div class="div2 center_text" style="background-color: yellow;">
+                    <p class="text2 blue_color">Mẹ là cả 1 trời nhớ thương</p>
+                    <p class="text2 blue_color">Mẹ là cả 1 thiên đường trần gian</p>
+                    <p class="text2 text2--border blue_color pbtm_20px ">Công ơn cha mẹ tựa biển trời</p>
+
+                    <p class="text2 red_color pt_20px">Làm sao báo hiếu hỡi người ơi?</p>
+                    <p class="text2 red_color">Nếu chưa báo hiếu đừng bất hiếu</p>
+                    <p class="text2 text2--border red_color pbtm_20px">Bất hiếu làm ta khổ muôn đời</p>
+
+                    <p class="text2 green_color pt_20px">Một đời vốn liếng mẹ trao</p>
+                    <p class="text2 green_color">Mẹ cho tất cả mẹ nào giữ riêng</p>
+                    <p class="text2 green_color">Mẹ hiền như một bà tiên</p>
+                    <p class="text2 text2--border green_color pbtm_20px">Mẹ theo con suốt hành trình con đi</p>
+                </div>
+
+                <div class="unit1_3">
+                    <h1 style="color: green;">Định dạng văn bản</h1>
+
+                    <p><u><b style="font-size: 20px;">Hóa học:</b></u>
+                        <span style="font-size: 16px;">
+                                <i> Nước:</i>
+                                <span style="color: red;">
+                                    H<sub>2</sub>O;
+                                </span> 
+                                <i>Axit sunfuric: </i>
+                                 <span style="color: red;">
+                                    H<sub>2</sub>SO<sub>4</sub>
+                                </span>
+                        </span>
+                    </p>
+
+                    <p>
+                        <u>
+                            <b style="font-size: 20px;">
+                                Toán học:
+                            </b>
+                        </u>
+                        <span style="font-size: 16px;">
+                            <i>Phương trình bậc 2: </i>
+                            <span style="color: red;">
+                                ax<sup>2</sup> + bx + c = 0
+                            </span>
+                        </span>
+                    </p>
+
+
+                    <p>
+                        <u>
+                            <b style="font-size: 20px;">
+                                Tin Học
+                            </b>
+                        </u>
+                        <span style="font-size: 16px;"><i>Vòng lặp For: </i></span>
+                        <div class="div3">
+                            <span class="span_class">For i = 0 To 10</span>
+                            <br>
+                            <span class="span_class ml_120px">Tong = Tong + 1</span>
+                            <br>
+                            <span class="span_class">Next</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+
+
+    <style>
+        div{
+            color: white;
+        }
+        .main{
+            height: 660px;
+        }
+        .header{
+            height: 110px;
+            background-color: red;
+        }
+        .nav{
+            height: 40px;
+            background-color: green;
+        }
+        .body{
+            display: flex;
+            height: 400px;
+        }
+        .content1{
+            width: 75%;
+            height: 100%;
+        }
+        .section{
+            height: 50%;
+            background-color: blue;
+        }
+        .artilce{
+            height: 50%;
+            background-color: black;
+        }
+        .content2{
+            width: 25%;
+            background-color: gray;
+        }
+        .footer{
+            height: 110px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            Header {height: 110px}
+        </div>
+
+        <div class="nav">
+            nav{height: 40px}
+        </div>
+
+        <div class="body">
+            <div class="content1">
+                <div class="section">
+                    Section{200px}  //Temporary
+                </div>
+
+                <div class="artilce">
+                    Artilce{200px}  //Temporary
+                </div>
+            </div>
+
+            <div class="content2">
+                Aside{200px //Temporary}
+            </div>
+        </div>
+
+        <div class="footer">
+            Footer{height: 110px}
+        </div>
+
+
+    </div>
+</body>
+</html>

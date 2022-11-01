@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>layout 2</title>
+    <style>
+
+        .gohome{
+            text-align: center  ;
+            background-color: #000;
+        }
+
+        .gohome a{
+            font-size: 30px;
+            color: #ccc;
+        }
+
+        .main{
+            border: solid 0.1px #ccc;
+            margin: 0 10%;
+        }
+        .wapper{
+            display:flex;
+            margin-left: 24%;
+            margin-right: 10%;
+        }
+
+        .imgs{
+            width: 200px;
+            height: auto;
+        }
+
+
+
+        mark{
+            background-color: hotpink;
+            color: #000;
+        }
+
+
+
+        
+
+        li a, .list_item a{
+            font-size: 20px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* csss sub main 2 */
+        .sub_main2{
+            padding: 5% 0;
+            margin: 10%;
+            background-color: #eebba1;
+        }
+        .img_div2{
+            padding-top: 10%;
+            padding-left: 0%;
+            padding-right: 5%;
+        }
+        .img_div2 img{
+            height: auto;
+            width: 200px;
+        }
+
+        .wapper2{
+            display: flex;
+        }
+
+        .boder_table{
+            border: solid #623d5b 1px;
+            border-collapse: collapse;
+        }
+
+        /* .text_right{
+            text-align: right;
+        } */
+
+        .th_table{
+            background-color: #9b5027;
+            color: #fff;
+        }
+        .th_table, .td_table{
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .backgroud_white{
+            background-color: white;
+        }
+
+        .backgroud_brown{
+            background-color: #eebba1;
+        }
+
+        /* end css submain2 */
+
+
+        /* css sub_main3 */
+            .sub_main3{
+                padding: 2% 20%;
+                font-size: 18px;
+            }
+
+            .border_violet{
+                border: violet 1px solid;
+                border-collapse: collapse;
+            }
+            .backgroud_red{
+                background-color: red;
+                color: white;
+            }
+
+
+        /* end */
+    </style>
+</head>
+<body>
+    <div class="gohome">
+        <a href="/exercise/exercise2/exercise2.html">GoHome</a>
+    </div>
+    <div class="main">
+        <div class="sub_main1" style="padding-bottom: 40px;">
+            <h1 style="text-align: center; color: hotpink;">Công ty Hoa tươi Nhân Ái</h1>
+
+            <div class="wapper">
+                <div class="img_div">
+                    <img class="imgs" src="/exercise/img/anh1.png" alt="">
+                </div>
+                <div class="div_list">
+                    <ol class="lists">
+                        <li class="list">
+                            <mark><a href="">Giới thiệu</a></mark>
+                            <ul>
+                                <li class="list_item"><a href="">Thành lập ngày 25/05/2007</a></li>
+                                <li class="list_item"><a href="">Chuyên cung cấp các loại hoa tươi</a></li>
+                                <li class="list_item"><a href="">Có trên 20 cửa hàng bán lẻ tại TP HCM</a></li>
+                                <li class="list_item" style="border-bottom: #ccc solid 1px; padding-bottom: 14px;"><a href="">Nhận kết giỏ hoa theo yêu cầu của khách hàng</a></li>
+                            </ul>
+                        </li>
+                    </ol>
+    
+                    <ol class="lists">
+                        <li class="list"> 
+                            <mark><a href="">Liên hệ</a></mark>
+                            <ul>
+                                <li class="list_item"><a href="">Điện thoại: 987654321</a></li>
+                                <li class="list_item" ><a href="">Địa chỉ: 227 Nguyễn Văn Cừ</a></li>
+                            </ul>
+                        </li>
+                    </ol>
+    
+                    <cite>Copyright: <a href="" style="color: blue;">Trung Tâm Tin Học- Đại Học Khoa Học Tự Nhiên TP. HCM</a></cite>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub_main2">
+            <h1 style="text-align: center; color: #9b5027;">Các món ngon hà nội</h1>
+
+            <div class="wapper2">
+                <div class="img_div2">
+                    <img src="/exercise/img/anh2.png" alt="ảnh 2">
+                </div>
+
+                <div class="table">
+                    <table class="boder_table" style="height:auto; width:456px">
+                        <tr >
+                            <th class="th_table boder_table">STT</th>
+                            <th class="th_table boder_table">Tên Món Ăn</th>
+                        </tr>
+
+
+                        <tr>
+                            <td class="td_table boder_table backgroud_white text_right">1</td>
+                            <td class="td_table boder_table backgroud_white">Bánh cuốn Thanh Trì</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table text_right">2</td>
+                            <td class="td_table boder_table">Xôi Hà Nội</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table backgroud_white text_right">3</td>
+                            <td class="td_table boder_table backgroud_white">Chả cá Lã Vọng</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table text_right">4</td>
+                            <td class="td_table boder_table">Cháo cốc</td>
+                        </tr>
+                        <tr>
+                            <td class="td_table boder_table backgroud_white text_right">5</td>
+                            <td class="td_table boder_table backgroud_white">Bánh gai Ninh Giang</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table text_right">6</td>
+                            <td class="td_table boder_table">Bún Thang Hà Nội</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table backgroud_white text_right">7</td>
+                            <td class="td_table boder_table backgroud_white">Canh Lắng</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_table boder_table text_right" >8</td>
+                            <td class="td_table boder_table">Vịt Quay Lạng Sơn</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sub_main3">
+            <h1 style="text-align: center; color: red;">Chương trình học - ngành lập trình</h1>
+
+            <table class="border_violet" style="text-align: center;">
+                <tr>
+                    <th class="backgroud_red border_violet" rowspan="2">Nhóm học phần</th>
+                    <th class="backgroud_red border_violet" rowspan="2">Môn học</th>
+                    <th class="backgroud_red border_violet" colspan="2">Số tiết</th>
+                </tr>
+                <tr>
+                    <th class="backgroud_red border_violet">Lý thuyết</th>
+                    <th class="backgroud_red border_violet">Thực hành</th>
+                </tr>
+
+                <tr>
+                    <td class="border_violet" rowspan="6">
+                        <div style= "color: red;">
+                            <p style="margin: 8px;">I</p>
+                            <Span style="margin-bottom: 8px; display: block;">Tin học văn phòng</Span>
+                        </div>
+                    </td>
+                    <td class="border_violet">Hệ điều hành windows</td>
+                    <td class="border_violet">3</td>
+                    <td class="border_violet">5</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet">Sử dụng internet</td>
+                    <td class="border_violet">3</td>
+                    <td class="border_violet">5</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet">Soạn thảo văn bản với MS Word</td>
+                    <td class="border_violet">24</td>
+                    <td class="border_violet">40</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet">Tạo bài trình diễn với MS Power Point</td>
+                    <td class="border_violet">9</td>
+                    <td class="border_violet">15</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet">Xử lí dữ liệu với MS Excel</td>
+                    <td class="border_violet">24</td>
+                    <td class="border_violet">40</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet">Tạo trang web với MS FontPage</td>
+                    <td class="border_violet">9</td>
+                    <td class="border_violet">15</td>
+                </tr>
+
+                <tr>
+                    <td class="border_violet" rowspan="2">
+                        <div style= "color: red;">
+                            <p style="margin: 8px;">II</p>
+                            <span style="margin-bottom: 8px; display: block;">Kỹ thuật lập trình(VB.NET)</span>
+                        </div>
+                    </td>
+                    <td class="border_violet">Nhập môn lập trình</td>
+                    <td class="border_violet">36</td>
+                    <td class="border_violet">60</td>
+                </tr>
+
+
+                <tr>
+                    <td class="border_violet">Kỹ thuật lập trình</td>
+                    <td class="border_violet">36</td>
+                    <td class="border_violet">60</td>
+                </tr>
+                <tr>
+                    <td class="border_violet" colspan="4" style="text-align: left; padding: 0;">...</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
