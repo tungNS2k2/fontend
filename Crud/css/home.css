@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+
+/* Full height image body */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/architect.jpg");
+    min-height: 100%;
+}
+.body_home{
+    height: 400px;
+}
